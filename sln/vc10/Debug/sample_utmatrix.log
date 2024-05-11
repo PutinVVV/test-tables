@@ -1,0 +1,80 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+cl : командная строка  warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  testing.cpp
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(33,79): warning C4244: =: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(119,33): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::stack<unsigned int,std::deque<unsigned int,std::allocator<unsigned int>>> AddT<T>(T &,int)"
+          with
+          [
+              T=TTable<int,TPolynom<int>>
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(155,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "void TestT<TTable<int,TPolynom<int>>>(T &,int)"
+          with
+          [
+              T=TTable<int,TPolynom<int>>
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(41,88): warning C4244: =: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(49,88): warning C4244: =: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(57,88): warning C4244: =: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(72,12): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(128,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::stack<unsigned int,std::deque<unsigned int,std::allocator<unsigned int>>> FindT<T>(T &)"
+          with
+          [
+              T=TTable<int,TPolynom<int>>
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(78,12): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(84,13): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(98,12): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(137,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::stack<unsigned int,std::deque<unsigned int,std::allocator<unsigned int>>> DelT<T>(T &)"
+          with
+          [
+              T=TTable<int,TPolynom<int>>
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(104,12): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTableTestkit.h(110,12): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\include\TQueue.h(46): warning C4715: TQueue<TTreeNode<int,TPolynom<int> > *>::IsEmpty: значение возвращается не при всех путях выполнения
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\THashTableNode.h(183): warning C4715: THashTableNode<int,TPolynom<int> >::Del: значение возвращается не при всех путях выполнения
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\THashTableNode.h(157): warning C4172: возвращение адреса локальной или временной переменной : a
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\THashTable.h(118): warning C4715: THashTable<int,TPolynom<int> >::Find: значение возвращается не при всех путях выполнения
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TMonom.h(56): warning C4715: TMonom<int>::operator+: значение возвращается не при всех путях выполнения
+C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\TTable.h(156): warning C4715: TTable<int,TPolynom<int> >::Find: значение возвращается не при всех путях выполнения
+  sample_utmatrix.vcxproj -> C:\Users\sergey\Desktop\TTreeTable-hash-table-not-bad\sln\vc10\Debug\sample_utmatrix.exe
